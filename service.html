@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forte gym website design</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav><a href="home.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-arrow-right" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+<h1>SERVICES WE PROVIDE</h1>
+<!----------service---------->
+    <section class="service">
+<h4> We provide world class experience at our center where you can passionatly work toward your goal.<br> We help you to be a person of your dream.</h4>
+
+    
+</div>   
+</section>
+<!-------------facilities------->
+    <section class="facilities">
+        <h1 style="font-size:300% ;">Our Facilities</h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="gymimg.jpg">
+                <h3>Best gym equipments.</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="Fitness55.jpg">
+                <h3 >Providing enthusiastic environment.</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="gymtrainer.jpg">
+                <h3>Providing expert guidence</h3>
+
+            </div>
+            <div class="facilities-col">
+                <img src="psychotherapist.jpg">
+                <h3>Providing psychotherapitic support.</h3>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+<!---------javascript for menu---------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="-0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
